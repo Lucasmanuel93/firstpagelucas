@@ -1,0 +1,60 @@
+/* Comments */
+/* Element selector */
+
+h1 {
+    color: purple;
+    text-decoration: underline;
+}
+
+p {
+    color: yellow;
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 2px 30px 5px;
+
+    margin: 30px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+}
+
+h2:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* Universal selectors */
+
+* {
+    color: red;
+}
+
+/* Class selectors */
+
+.subtitle {
+    color: skyblue;
+}
+
+/* ID selectors */
+
+#msg {
+    color: green
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Grey Qo', cursive;
+    font-family: 'Karla', sans-serif;
+    scroll-behavior: smooth;
+}

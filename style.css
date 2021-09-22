@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    scroll-behavior: smooth; 
+}
+
+header {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#FigmaIcon {
+    width: 40px;
+}
+
+.navelement {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left:16px;
+    cursor: pointer;
+}
+
+.navelement:hover{
+    text-decoration: underline
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0px;
+    padding-top: 14px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    cursor: pointer;
+
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32 px;
+}
+
+#mainvideo {
+    width: 350px
+}
+
+#design-for-web-video {
+    width: 550px;
+}
+
+#main-video-paragraph {
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.design-for-web {
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 500px;
+
+}
+
